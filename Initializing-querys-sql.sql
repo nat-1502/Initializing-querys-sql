@@ -1,20 +1,19 @@
-//* WHERE  *//
+//* COUNT  *//
 
-SELECT Name, Weight
-FROM Production.Product
-WHERE Weight > 500 AND Weight <=700;
-
+SELECT COUNT(COLUNA)
+FROM TABELA 
 
 
 SELECT *
-FROM HumanResources.Employee
-WHERE MaritalStatus = 'M' AND SalariedFlag = '1';
+FROM Production.Product
+
+SELECT count (ProductID)
+FROM Production.Product
 
 
-SELECT * 
-FROM person.Person 
-WHERE FirstName = 'Peter' AND LastName = 'Krebs';
+SELECT count (size)
+FROM Production.Product
 
-Select *
-FROM Person.EmailAddress 
-WHERE BusinessEntityID = '26';
+SELECT count (DISTINCT size)
+FROM Production.Product
+
