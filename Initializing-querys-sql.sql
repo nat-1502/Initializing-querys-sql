@@ -1,19 +1,8 @@
-//* COUNT  *//
+//* TOP  *//
 
-SELECT COUNT(COLUNA)
+SELECT TOP 10 *
 FROM TABELA 
 
 
-SELECT *
+SELECT TOP 4 *
 FROM Production.Product
-
-SELECT count (ProductID)
-FROM Production.Product
-
-
-SELECT count (size)
-FROM Production.Product
-
-SELECT count (DISTINCT size)
-FROM Production.Product
-
