@@ -1,8 +1,7 @@
-//* TOP  *//
+//* ORDER BY  *//
 
-SELECT TOP 10 *
-FROM TABELA 
+SELECT coluna1, coluna2
+FROM TABELA
+ORDER BY coluna as/desc 
 
 
-SELECT TOP 4 *
-FROM Production.Product
