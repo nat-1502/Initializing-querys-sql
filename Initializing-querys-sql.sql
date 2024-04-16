@@ -1,7 +1,7 @@
-//* ORDER BY  *//
+//* BETWEEN  *//
 
-SELECT coluna1, coluna2
-FROM TABELA
-ORDER BY coluna as/desc 
+SELECT *
+FROM HumanResources.Employee
+WHERE HireDate BETWEEN '2009/01/01' and '2010/01/01'
 
 
